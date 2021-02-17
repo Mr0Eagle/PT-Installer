@@ -52,11 +52,11 @@ output "(( Not official installer of pterodactyl. | Not for commercial use. ))"
 output
 
 panel() {
-  bash <(curl -s https://raw.githubusercontent.com/Mr0Eagle/Pterodactyl-Panel-Installer/$SCRIPT_VERSION/install-panel.sh)
+  bash <(curl -s https://raw.githubusercontent.com/Mr0Eagle/PT-Installer/$SCRIPT_VERSION/install-panel.sh)
 }
 
 wings() {
-  bash <(curl -s https://raw.githubusercontent.com/Mr0Eagle/Pterodactyl-Panel-Installer/$SCRIPT_VERSION/install-wings.sh)
+  bash <(curl -s https://raw.githubusercontent.com/Mr0Eagle/PT-Installer/$SCRIPT_VERSION/install-wings.sh)
 }
 
 while [ "$done" == false ]; do
