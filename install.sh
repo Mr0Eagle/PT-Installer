@@ -4,7 +4,7 @@ set -e
 
 SCRIPT_VERSION="v0.1"
 NAME_INSTALLER="SERVERNAME"
-AUTHOR="Dawid Jan Korytkowski"
+AUTHOR="Eagle"
 
 # exit with error status code if user is not root
 if [[ $EUID -ne 0 ]]; then
